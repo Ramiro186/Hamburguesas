@@ -33,7 +33,7 @@ if __name__ == '__main__':
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hamburguesas Deliciosas</title>
+    <title>Hamburguesas comida rápida</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
@@ -42,7 +42,7 @@ if __name__ == '__main__':
     </header>
     <main>
         <section class="favs">
-            <h2>nustras favoritas son</h2>
+            <h2>nustras favoritas son:</h2>
             <div class="burger">
                 <img src="{{ url_for('static', filename='https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mcdonalds.com.ar%2Fproductos%2Fhamburguesas%2Fbig-mac&psig=AOvVaw2NKBd54KcPOmW5qL0tDJsk&ust=1731540716493000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPDX_v_514kDFQAAAAAdAAAAABAE') }}" alt="Hamburguesa">
                 <h3>Hamburguesa Big Mac</h3>
